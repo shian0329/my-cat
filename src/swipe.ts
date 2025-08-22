@@ -36,7 +36,7 @@ export function enableSwipe(cats: string[]) {
 				hint.style.color = 'green'
 				hint.style.opacity = `${Math.min(currentX / 100, 1)}`
 			} else {
-				hint.innerText = 'NOPE 👎'
+				hint.innerText = 'DISLIKE 👎'
 				hint.style.color = 'red'
 				hint.style.opacity = `${Math.min(Math.abs(currentX) / 100, 1)}`
 			}
